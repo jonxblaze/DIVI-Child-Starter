@@ -38,7 +38,7 @@ function style() {
     .pipe(sourcemaps.write())
     .pipe(concat("style.min.css"))
     .pipe(gulp.dest(paths.styles.dest))
-    .pipe(notify({ message: "CSS updated and minified!-" + Date.now(), onLast: true }))
+    .pipe(notify({ message: "CSS updated and minified! - " + Date.now(), onLast: true }))
   );
 }
 
@@ -51,7 +51,7 @@ function js() {
     .pipe(concat("main.min.js"))
     .pipe(sourcemaps.write("."))
     .pipe(gulp.dest(paths.js.dest))
-    .pipe(notify({ message: "JavaScript file updated!.", onLast: true }))
+    .pipe(notify({ message: "JavaScript file updated! - " + Date.now(), onLast: true }))
 }
 
  // We should tell gulp which files to watch

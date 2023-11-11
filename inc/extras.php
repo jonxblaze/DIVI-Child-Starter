@@ -2,7 +2,7 @@
 /**
  * Miscellaneous functions
  *
- * @package Houston
+ * @package Divi Child Starter
  */
 
 // Exit if accessed directly.
